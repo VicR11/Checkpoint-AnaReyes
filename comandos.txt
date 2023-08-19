@@ -1,0 +1,26 @@
+  285  git init
+  286  git remote add origin https://github.com/VicR11/Checkpoint-AnaReyes.git
+  287  touch main.js index.html
+  288  git add .
+  289  git commit -m "commit 01 de AnaReyes"
+  290  git branch -m master main
+  291  git push -u origin main
+  292  git branch feature
+  293  git checkout feature
+  294  mkdir Hardware Software SeguridadInformatica
+  295  cd Software
+  296  touch resumen.txt
+  297  cd ..
+  298  cd Hardware
+  299  touch resumen.txt
+  300  cd ..
+  301  cd SeguridadInformatica
+  302  touch resumen.txt
+  303  cd ..
+  304  git add .
+  305  git commit -m "commit 02 de AnaReyes"
+  306  git push origin feature
+  307  git checkout main
+  308  mv main.js resumenHardware.txt
+  309  mv index.html resumenSoftware.txt
+  310  touch comandos.txt
